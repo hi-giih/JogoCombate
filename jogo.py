@@ -1,7 +1,7 @@
 class Personagem():
     def __init__(self, nome, vida, nivel) -> None:
         self.__nome = nome #encapsulamento - Privado
-        self.__vida = vida
+        self.__vida = int (vida)
         self.__nivel = nivel
 
     def get_nome(self):
@@ -61,8 +61,8 @@ class Vilao (Personagem):
 #Clsse Jogo Orquestradora do jogo
 class Jogo():
     def __init__(self) -> None:
-        self.heroi = Heroi(nome= "Heroi", vida=100, nivel=5, habilidade="Super Força")
-        self.vilao = Vilao(nome= "Vilao", vida=100, nivel=5, tipo="Voador")
+        self.heroi = Heroi(nome= "Heroi", vida=50, nivel=5, habilidade="Super Força")
+        self.vilao = Vilao(nome= "Vilao", vida=50, nivel=5, tipo="Voador")
 
 
     #gestão em turnos
@@ -84,7 +84,12 @@ class Jogo():
             else:
                 print("Escolha inválida, Por favor escolha novamente")
 
-        if self.heroi.get_vida()> 0:
+            if self.vilao.get_vida() > 0:
+                self.vilao.atacar(self.heroi)
+
+
+
+        if self.heroi.get_vida() > 0:
             print("\n Parabens, você venceu !!")
         else:
             print("\n Você foi derrotado !!")
