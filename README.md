@@ -20,6 +20,7 @@
 
  Python 3.x: Linguagem de programação utilizada para o desenvolvimento do jogo.
  Paradigmas de Programação: Utilização de programação orientada a objetos (OOP), incluindo os conceitos de encapsulamento, herança e polimorfismo.
+ Utilização da biblioteca random.
 
 ## 🛠️ Instalando e Rodando
 
