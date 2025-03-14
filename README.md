@@ -1,4 +1,4 @@
-# 📲 Jogo de combate em turnos
+# 👾 Jogo de combate em turnos
 
 ![Static Badge](https://img.shields.io/badge/status-Active-gren?style=for-the-badge)
 
