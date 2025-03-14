@@ -18,7 +18,7 @@
 
 ## 💻 Tecnologias utilizadas
 
- Python 3.x: Linguagem de programação utilizada para o desenvolvimento do jogo.
+ Python 3.11: Linguagem de programação utilizada para o desenvolvimento do jogo.
  Paradigmas de Programação: Utilização de programação orientada a objetos (OOP), incluindo os conceitos de encapsulamento, herança e polimorfismo.
  Utilização da biblioteca random.
 
